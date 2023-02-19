@@ -3,6 +3,7 @@
 
 body{
     
+    height: 150vh;
     
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,12 +15,16 @@ body{
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+
 }
 
 .nav-header{
     position: fixed;
     background-color: inherit;
     
+
 }
 
 .navbar{
@@ -67,7 +72,7 @@ img{
 }
 
 #Model-S{
-    
+    background-image: url("images/model-s.jfif");
 }
 
 #Model-3{}

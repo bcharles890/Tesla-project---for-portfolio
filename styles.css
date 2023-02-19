@@ -1,24 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
 body{
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
 }
 
 ul{
     list-style: none;
+    
 }
 
 li{
     float: left;
     margin-left: 5px;
+    margin-top: 40px;
+    font-family: Teko;
+    font-size: 25px;
+    
+}
+.model_s{
+    margin-left: 400px;
 }
 
 a{
     padding: 8px;
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+    
+    
+}
+
+.shop{
+    margin-left: 350px;
 }
 
 img{
-    display: inline;
+    display: inline-block;
 }
 
 #Model-S{

@@ -16,6 +16,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
 
 }
@@ -35,19 +36,88 @@ body{
 ul{
     list-style: none;
     
+    margin-left: 330px;
+    height: 0%;
+    
 }
 
 li{
     float: left;
-    margin-left: 5px;
+    padding-left: 5px;
     margin-top: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     
 }
-.model_s{
-    margin-left: 350px;
+.model_s{   }
+.model_3{}
+.model_x{}
+.model_y{}
+.cybertruck{}
+.powerwall{}
+
+
+
+.nav-side{
+    font-size: 20px;
+    padding-top: 35px;
+    margin-left: 300px;
+    height: 0%;
 }
+.shop{}
+.account{}
+.menu{}
+
+
+
+.model_s:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+    transition-timing-function: linear 1s;
+
+}
+.model_3:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+    transition-timing-function: linear 1s;
+
+}
+.model_x:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+.model_y:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+.cybertruck:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+.powerwall:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+.shop:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+.account:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+.menu:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
 
 a{
     padding: 8px;
@@ -58,18 +128,27 @@ a{
         
 }
 
-.shop{
-    margin-left: 300px;
-}
+
 
 img{
     display: inline-block;
 }
 
-.nav-side{
-    font-size: 20px;
-    padding-top: 35px;
+
+
+
+.middle{
+   padding-top: 200px;
+   text-align: center;
+   font-family: system-ui;
+   font-weight: lighter;
 }
+
+h1>,h3>.middle{
+    font-weight: 100;
+}
+
+
 
 #Model-S{
     background-image: url("images/model-s.jfif");
